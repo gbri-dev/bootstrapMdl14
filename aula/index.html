@@ -18,22 +18,36 @@
 
 <body>
 
-  <header class="navbar navbar-expand-lg sticky-top">
+  <header class="navbar navbar-expand-lg sticky-top pt-4">
     <div class="container">
-      <h1 class="navbar-brand">Nome do restaurante</h1>
-      <nav>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="#" class="nav-link active">Sobre o restaurante</a>
+      <h1 class="navbar-brand m-0">Nome do restaurante</h1>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavegacao">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="navbar-collapse collapse justify-content-end" id="menuNavegacao">
+        <!--Menu resposivo(d-md-flex) é {propriedade: d(display)}+{breakpoint: md(≥768px)}{Valor: flex}-->
+        <ul class="nav nav-pills d-block d-md-flex">
+          <li class="nav-item fw-bold">
+            <a href="#" class="nav-link active">
+              <!--me é margin-end -->
+              <i class="bi bi-house-door me-1"></i>
+              Sobre o restaurante
+            </a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Eventos</a>
+          <li class="nav-item fw-bold">
+            <a href="#" class="nav-link">
+              <i class="bi bi-calendar-check me-1"></i>
+              Eventos</a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Nosso cardápio</a>
+          <li class="nav-item fw-bold">
+            <a href="#" class="nav-link">
+              <i class="bi bi-card-text me-1"></i>
+              Nosso cardápio</a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Fale conosco</a>
+          <li class="nav-item fw-bold">
+            <a href="#" class="nav-link">
+              <i class="bi bi-chat-left-text me-1"></i>
+              Fale conosco</a>
           </li>
         </ul>
       </nav>
