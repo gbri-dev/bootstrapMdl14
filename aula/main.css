@@ -1,0 +1,7 @@
+.navbar {
+  background-color: #e15f41;
+}
+
+.nav .nav-link.active {
+  background-color: #fff;
+}
