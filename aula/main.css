@@ -45,11 +45,25 @@ body {
   background-color: #ffeae6;
 }
 
-.nav-cardapio .nav-link.active {
+.nav-cardapio .nav-link.active,
+#contato button {
   background-color: #e15f41;
   color: #fff;
 }
 
 .nav-cardapio .nav-link:hover {
   color: #e15f41;
+}
+
+.socialLink li {
+  list-style: none;
+  display: inline;
+}
+
+.socialLink a {
+  text-decoration: none;
+}
+
+#contato button {
+
 }
