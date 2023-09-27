@@ -64,6 +64,7 @@ body {
   text-decoration: none;
 }
 
-#contato button {
-
+#erroInput {
+  color: #e15f41;
+  margin-bottom: 5px;
 }
