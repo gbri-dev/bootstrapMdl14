@@ -16,10 +16,23 @@ body {
   color: #fff;
 }
 
-.navbar-brand {
+.navbar-toggler {
+  background-color: #ffeae6;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 350px;
+}
+
+.font-default {
   font-family: Pacifico, cursive;
 }
 
-.navbar-toggler {
+.font-default span {
+  color: #e15f41;
+}
+
+#sobre-restaurante{
   background-color: #ffeae6;
 }
